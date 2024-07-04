@@ -51,7 +51,6 @@ app.get('/api/data', async (req, res) => {
     res.status(500).json({ error: 'Internal Server Error' });
   }
 });
-
 // read One
 app.get('/api/data/:id', async (req, res) => {
   try {
